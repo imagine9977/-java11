@@ -1,0 +1,16 @@
+package org.kh.java;
+import java.util.Scanner;
+
+public class Condition3 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int point = scanner.nextInt();
+		if(point>9) {
+			
+		}else if(point>8) {
+			
+		}else {
+			
+		}
+	}
+}
