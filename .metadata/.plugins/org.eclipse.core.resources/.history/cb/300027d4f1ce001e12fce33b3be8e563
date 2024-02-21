@@ -1,0 +1,14 @@
+package baek;
+import java.util.Scanner;
+
+public class tripleAdd {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int sum =0;
+		int si1 = sc.nextInt();
+		int si2 = sc.nextInt();
+		int si3 = sc.nextInt();
+		sum = si1+si2+si3;
+		System.out.println(sum);
+	}
+}

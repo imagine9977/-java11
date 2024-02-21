@@ -1,0 +1,15 @@
+package org.kh.java;
+
+public class variable3 {
+
+	public static void main(String[] args) {
+		int bin = 0b10111; //2진수
+		int oct = 03647; //8진수
+		int dec = 3647; //10진수
+		int hex = 0x2c8;
+		System.out.println(bin);
+		System.out.println(oct);
+		System.out.println(hex);
+	}
+
+}

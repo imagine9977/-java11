@@ -1,0 +1,17 @@
+package baek;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class q1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int ScanInt1 = sc.nextInt();
+		int ScanInt2 = sc.nextInt();
+		int digit = 0;
+		List<Integer> stack = new ArrayList<>();
+		while(ScanInt2 != 0) {
+			digit = ScanInt2 %10;
+		}
+	}
+}

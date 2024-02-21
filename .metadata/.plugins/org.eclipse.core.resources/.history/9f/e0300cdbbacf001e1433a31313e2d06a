@@ -1,0 +1,9 @@
+package org.kh.java;
+
+public class practice69 {
+	public static void main(String[] args) {
+		String ch1 = "0xAE00";
+		System.out.println((char)0xAE00);
+		
+	}
+}

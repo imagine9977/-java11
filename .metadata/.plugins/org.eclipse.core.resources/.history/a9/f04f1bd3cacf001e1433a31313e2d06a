@@ -1,0 +1,27 @@
+package baek;
+import java.util.Scanner;
+
+public class digitNConverter2745 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String inputNumber = sc.next();
+		int baseDigit = sc.nextInt();
+		int finalNumber = 0;
+		
+		for(int i =inputNumber.length()-1 ; i>=0;i--) {
+			char charV = inputNumber.charAt(i);
+			int convert;
+			if(charV >= 'A' && charV <= 'Z') {
+				convert = (int)charV - 55;
+			}else {
+				convert = charV;
+			}
+			
+			finalNumber+=convert*(10^i);
+		}
+		
+		System.out.println(finalNumber);
+	}
+
+}

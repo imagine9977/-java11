@@ -1,0 +1,13 @@
+package org.kh.java;
+
+public class Variable7 {
+	public static void main(String[] args) {
+		String name ="Bob";
+		Integer age = 30;
+		String age2="30";
+		int age3 = Integer.parseInt(age2)+8;
+		Float height = 173.65f;
+		Double weight = 72.3;
+		System.out.println(age3);
+	}
+}

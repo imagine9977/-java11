@@ -1,0 +1,21 @@
+package org.kh.java;
+
+public class Operation7 {
+	//+=, -=, *=,/=,%=,%=,&=,|=,>>=,<<=,>>>=,<<<=,^=
+	public static void main(String[] args) {
+		int a =20;
+		int b= 15;
+		int c;
+		a+=b;
+		b-=a;
+		c=a;
+		a=b;
+		b=c;
+		System.out.println(a+" "+b+" "+c);
+		int x =0b01101; //13
+		int y =0b01011; //11
+		System.out.println(x);
+		System.out.printf((string) x);
+	}
+
+}

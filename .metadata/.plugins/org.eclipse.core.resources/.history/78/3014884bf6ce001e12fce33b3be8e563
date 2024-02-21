@@ -1,0 +1,9 @@
+package baek;
+import java.util.Scanner;
+public class skipYear {
+	public static void main(String[] argv) {
+		Scanner sc = new Scanner(System.in);
+		int ScanInt1 = sc.nextInt();
+		if()
+	}
+}
