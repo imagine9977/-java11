@@ -1,9 +1,0 @@
-package org.kh.java;
-
-public class practice69 {
-	public static void main(String[] args) {
-		String ch1 = "AE00";
-		System.out.println((char)ch1);
-		
-	}
-}

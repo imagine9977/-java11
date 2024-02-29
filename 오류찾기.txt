@@ -1,0 +1,22 @@
+Test1:
+10) sc.next()->sc.nextInt();
+14) input <=9 ->(input>=2)&&(input<=9)
+16) ,input,num,input*num);
+18) break; //프로그램 종료를 위한 문구
+
+Test2:
+13)sc.next(); //string 입력
+17) i=0;i<memberArr.length-1;i++ //프로그래밍은 1부터 갯수가 아닌 0부터 갯수-1
+
+
+25)!result //일단 true일때 존재합니다가 출력해야되므로 result가 false면 !result가 참이므로 26번줄이 정상적으로 출력
+
+Test3)
+Member 클래스
+10) Member(); 일반 생성자 추가
+
+Test3 클래스
+12) age int값으로 받아야함 (25)
+19) age int값으로 받아야함  (20)
+28) Member mem 변수 설정 ㅇ호류
+
